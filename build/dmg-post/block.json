@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "dmg-blocks/dmg-post",
+  "version": "0.1.0",
+  "title": "DMG Post",
+  "category": "text",
+  "description": "This block will allow editors to search for and then choose a published post to insert into the editor as a stylised anchor link.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "dmg-post",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

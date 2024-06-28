@@ -1,0 +1,1 @@
+console.log("Hello World! (from dmg-blocks-dmg-post block)");
