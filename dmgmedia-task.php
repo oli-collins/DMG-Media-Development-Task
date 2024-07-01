@@ -68,9 +68,9 @@ function dmg_read_more_search($to_date = null, $from_date = null) {
 
 if ( defined( 'WP_CLI' ) && WP_CLI ) {
 	class DMG_Read_More_Search_Command {
-		// This command will rund the dmg_read_more_search fucntion defined above,
+		// This command will run the dmg_read_more_search fucntion defined above,
 		// with two optional arguments, date-before and date-after
-		// Example of the command that can be rund is: wp dmg_read_more_search 2023-12-31 2023-01-01
+		// Example of the command that can be run is: wp dmg_read_more_search 2023-12-31 2023-01-01
 		public function __invoke( $args, $assoc_args ) {
 			list( $date_before, $date_after ) = $args;
 

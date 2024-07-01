@@ -27,37 +27,6 @@ import metadata from './block.json';
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
 
-/*registerBlockType('dmg-blocks/dmg-post', {
-    title: 'DMG Post',
-    icon: 'admin-links',
-    category: 'common',
-    attributes: {
-        postID: {
-            type: 'number',
-            default: 0,
-        },
-        postTitle: {
-            type: 'string',
-            default: '',
-        },
-        postURL: {
-            type: 'string',
-            default: '',
-        },
-    },
-    supports: {
-        className: false,
-        customClassName: false,
-    },
-    Edit,
-    Save,
-    render: 'dmg_render_block_core_notice', // Add this line to specify the render callback
-});*/
-
-/*import { registerBlockType } from '@wordpress/blocks';
-import edit from './edit';
-import save from './save';*/
-
 registerBlockType('dmg-blocks/dmg-post', {
     title: 'DMG Read More',
     icon: 'text',
